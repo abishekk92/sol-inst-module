@@ -4,7 +4,7 @@ use anchor_lang::prelude::*;
 declare_id!("GK9MqqiyWWThZHsQwcnvmZHZY5KoGn3sdg9ii8xocidr");
 
 #[program]
-pub mod quartz_counter {
+pub mod counter {
     use super::*;
 
     /// Initialize a new counter account

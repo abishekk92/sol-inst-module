@@ -12,7 +12,7 @@ solana-exercises/
 │   ├── package.json
 │   ├── basic-sol-transfer.js
 │   └── README.md
-├── 02-spl-tokens/              # SPL Token Operations  
+├── 02-spl-tokens/              # SPL Token Operations
 │   ├── package.json
 │   ├── token-operations.js
 │   └── README.md
@@ -39,7 +39,7 @@ solana-exercises/
 ### Prerequisites
 
 1. **Node.js v18+**
-2. **Solana CLI**: 
+2. **Solana CLI**:
    ```bash
    curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
    ```
@@ -153,7 +153,7 @@ All exercises support multiple networks via environment variables:
 # Local development (default)
 SOLANA_ENV=localnet npm start
 
-# Solana devnet  
+# Solana devnet
 SOLANA_ENV=devnet npm start
 
 # Mainnet (use with extreme caution)
@@ -287,5 +287,3 @@ To test all modules work correctly:
 MIT License - See individual modules for details.
 
 ---
-
-**Learn Solana Through Practice** • From basics to production patterns

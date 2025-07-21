@@ -5,7 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-quartz_counter = "GK9MqqiyWWThZHsQwcnvmZHZY5KoGn3sdg9ii8xocidr"
+counter = "GK9MqqiyWWThZHsQwcnvmZHZY5KoGn3sdg9ii8xocidr"
 
 [registry]
 url = "https://api.apr.dev"
