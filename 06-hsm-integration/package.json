@@ -1,0 +1,30 @@
+{
+  "name": "solana-hsm-integration",
+  "version": "1.0.0",
+  "description": "HSM integration patterns for Solana - secure signing interface and examples",
+  "main": "hsm-sol-transfer.js",
+  "scripts": {
+    "start": "node hsm-sol-transfer.js",
+    "sol-transfer": "node hsm-sol-transfer.js",
+    "token-transfer": "node hsm-token-transfer.js",
+    "dev": "SOLANA_ENV=localnet node hsm-sol-transfer.js",
+    "devnet": "SOLANA_ENV=devnet node hsm-sol-transfer.js"
+  },
+  "keywords": [
+    "solana",
+    "hsm",
+    "security",
+    "signing",
+    "custody"
+  ],
+  "author": "Solana Learning Team",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "@solana/spl-token": "^0.4.8",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

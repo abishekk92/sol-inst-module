@@ -1,0 +1,29 @@
+{
+  "name": "solana-multisig",
+  "version": "1.0.0",
+  "description": "Multisig wallet operations using Squads Protocol - creating multisig wallets, proposals, and approvals",
+  "main": "multisig-operations.js",
+  "scripts": {
+    "start": "node multisig-operations.js",
+    "dev": "SOLANA_ENV=localnet node multisig-operations.js",
+    "devnet": "SOLANA_ENV=devnet node multisig-operations.js"
+  },
+  "keywords": [
+    "solana",
+    "multisig",
+    "squads",
+    "multi-signature",
+    "governance"
+  ],
+  "author": "Solana Learning Team",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "@solana/spl-token": "^0.4.8",
+    "@sqds/multisig": "^2.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

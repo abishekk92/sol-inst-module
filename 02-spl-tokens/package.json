@@ -1,0 +1,30 @@
+{
+  "name": "solana-spl-tokens",
+  "version": "1.0.0",
+  "description": "SPL Token operations - creation, minting, transfers, and associated token accounts",
+  "main": "token-operations.js",
+  "scripts": {
+    "start": "node token-operations.js",
+    "dev": "SOLANA_ENV=localnet node token-operations.js",
+    "devnet": "SOLANA_ENV=devnet node token-operations.js",
+    "create-token": "node create-token.js",
+    "transfer-tokens": "node transfer-tokens.js"
+  },
+  "keywords": [
+    "solana",
+    "spl-token",
+    "token-creation",
+    "token-transfer",
+    "associated-token-account"
+  ],
+  "author": "Solana Learning Team",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "@solana/spl-token": "^0.4.8",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

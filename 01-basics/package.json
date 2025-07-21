@@ -1,0 +1,28 @@
+{
+  "name": "solana-basics",
+  "version": "1.0.0",
+  "description": "Basic Solana operations - wallet creation, SOL transfers, balance checking",
+  "main": "basic-sol-transfer.js",
+  "scripts": {
+    "start": "node basic-sol-transfer.js",
+    "dev": "SOLANA_ENV=localnet node basic-sol-transfer.js",
+    "devnet": "SOLANA_ENV=devnet node basic-sol-transfer.js",
+    "mainnet": "SOLANA_ENV=mainnet-beta node basic-sol-transfer.js"
+  },
+  "keywords": [
+    "solana",
+    "web3",
+    "sol-transfer",
+    "wallet",
+    "basics"
+  ],
+  "author": "Solana Learning Team",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
